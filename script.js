@@ -86,5 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // Specifies that the scrolling should be animated and smooth.
     });
   });
+
+  window.history.pushState({}, '', 'portfolio'); // This will change the URL to "portfolio" (without reloading the page)
 });
+
 
